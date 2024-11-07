@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Phone Store</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <h1>Phone Store</h1>
+    </header>
+
+    <!-- Banner -->
+    <div class="banner">
+      <h2>Diskon Spesial Akhir Tahun!</h2>
+      <p>Dapatkan diskon hingga 50% untuk semua model HP terbaru!</p>
+    </div>
+
+    <!-- Kategori Produk -->
+    <section class="kategori">
+      <h3>Produk Terlaris</h3>
+      <div class="produk-container">
+        <!-- Load produk dari PHP -->
+        <?php include 'include.php'; ?>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2024 Phone Store. Semua hak cipta dilindungi.</p>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+  </body>
+</html>
